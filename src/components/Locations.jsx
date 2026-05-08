@@ -6,12 +6,12 @@ import { MapPin, ArrowRight } from 'lucide-react';
 gsap.registerPlugin(ScrollTrigger);
 
 const locations = [
-  { name: "Indiranagar 100FT Road", image: "/Assets/Location Images/Indiranagar.jpg" },
-  { name: "Koramangala", image: "/Assets/Location Images/Kormangala.png" },
-  { name: "Kammanahalli", image: "/Assets/Location Images/Kamanhalli.png" },
-  { name: "Marathahalli", image: "/Assets/Location Images/Marthalli.png" },
-  { name: "BEL Road", image: "/Assets/Location Images/BEL Road.jpg" },
-  { name: "CMH Road", image: "/Assets/Location Images/CMH Road.avif" }
+  { name: "Indiranagar 100FT Road", image: "/assets/Location Images/Indiranagar.jpg" },
+  { name: "Koramangala", image: "/assets/Location Images/Kormangala.png" },
+  { name: "Kammanahalli", image: "/assets/Location Images/Kamanhalli.png" },
+  { name: "Marathahalli", image: "/assets/Location Images/Marthalli.png" },
+  { name: "BEL Road", image: "/assets/Location Images/BEL Road.jpg" },
+  { name: "CMH Road", image: "/assets/Location Images/CMH Road.avif" }
 ];
 
 const Locations = () => {
