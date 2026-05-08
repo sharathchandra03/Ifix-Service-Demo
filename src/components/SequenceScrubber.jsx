@@ -20,7 +20,8 @@ const SequenceScrubber = () => {
       const img = new Image();
       // Format number to 3 digits e.g. 001, 002
       const formattedNumber = i.toString().padStart(3, '0');
-      img.src = `/3d scroll/ezgif-frame-${formattedNumber}.jpg`;
+      const baseUrl = import.meta.env.BASE_URL;
+      img.src = `${baseUrl}3d-scroll/ezgif-frame-${formattedNumber}.jpg`;
       img.onload = () => {
         loadedCount++;
         if (loadedCount === frameCount) {

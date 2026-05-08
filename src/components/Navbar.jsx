@@ -16,7 +16,7 @@ const Navbar = () => {
     <nav ref={navRef} className="fixed top-0 left-0 w-full z-50 bg-[#000000] border-b border-white/5">
       <div className="max-w-7xl mx-auto px-6 py-4 flex justify-between items-center relative">
         <div className="flex items-center gap-2 cursor-pointer z-10">
-          <img src="/assets/ifix-india-logo.png" alt="iFix India" className="h-11 object-contain" />
+          <img src={`${import.meta.env.BASE_URL}assets/ifix-india-logo.png`} alt="iFix India" className="h-11 object-contain" />
         </div>
         
         {/* Absolutely centered links */}

@@ -9,7 +9,7 @@ const Footer = () => {
           
           <div className="col-span-2 lg:col-span-2">
             <div className="flex items-center gap-2 mb-6">
-              <img src="/assets/ifix-india-logo.png" alt="iFix India" className="h-10 object-contain" />
+              <img src={`${import.meta.env.BASE_URL}assets/ifix-india-logo.png`} alt="iFix India" className="h-10 object-contain" />
             </div>
             <p className="text-secondary mb-6 max-w-sm">
               Premium Apple service center in Bangalore. Expert repairs for iPhone, iPad, MacBook, iMac, and iWatch.
