@@ -3,7 +3,7 @@
   "private": true,
   "version": "0.0.0",
   "type": "module",
-  "homepage": "https://sharathchandra03.github.io/Ifix-Service-Demo-/",
+  "homepage": "https://sharathchandra03.github.io/Ifix-Service-Demo/",
   "scripts": {
     "dev": "vite",
     "build": "vite build",
